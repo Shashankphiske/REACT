@@ -1,0 +1,14 @@
+we can render our html elements through jsx in react
+
+we have a react-scripts in the package.json as a dependancy, this connects our html with js files in the program
+we dont need to explicitly link js to html. When you make your project using vite it will not give node_modules and react-scripts
+but it will explicitly link js to html using script tag
+
+when we want to make a block of html code we wrap it inside div tags
+in react we use <> </> and we call it a fragment this is jsx
+
+react uses a bundler which converts our html syntax to jsx which is recognised by the react
+it parses the html and creates a tree from which a DOM object is made which is rendered on the page 
+if we have variables being rendered on the page, they are at the end of the tree
+
+hooks in react are used to update the dynamic entities mainly the variables on the ui

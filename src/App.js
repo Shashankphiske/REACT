@@ -1,6 +1,8 @@
+import SSP from "./ssp";
+
 function App() {
   return (
-    <h1> Shashank React </h1>
+    <SSP />
   );
 }
 
