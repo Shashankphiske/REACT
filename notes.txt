@@ -12,3 +12,6 @@ it parses the html and creates a tree from which a DOM object is made which is r
 if we have variables being rendered on the page, they are at the end of the tree
 
 hooks in react are used to update the dynamic entities mainly the variables on the ui
+
+props in reacts are used to make a resuable component, eg : you make a card from html, css and js we can put it inside an element and
+reuse it anytime anywhere
